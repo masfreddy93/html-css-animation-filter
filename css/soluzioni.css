@@ -71,3 +71,17 @@
     border-radius: 20px;
     transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+.ex-10-icon {
+    animation-name: rotazione; 
+    animation-duration: 2s;  
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotazione {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
