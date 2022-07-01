@@ -104,5 +104,38 @@
     }
 }
 
+/* Esercizio 12 */
+
+/* .ex-12-bottom-white {
+    transition: all 3s ease-in-out; 
+} */
 
 
+
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: spostare-sopra;
+    animation-duration: 3s;
+}
+
+@keyframes spostare-sopra {
+    50% {
+        left: 70%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: spostare-sotto;
+    animation-duration: 3s;
+}
+
+@keyframes spostare-sotto {
+    50% {
+        right: 70%;
+    }
+    100% {
+        right: 10%;
+    }
+}
