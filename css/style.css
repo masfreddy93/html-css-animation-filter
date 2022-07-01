@@ -20,6 +20,7 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: background-color 1s ease-out; 
 }
 .ex-5-square {
     margin: 20px;

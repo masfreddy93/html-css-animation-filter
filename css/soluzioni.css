@@ -14,3 +14,9 @@
 .ex-3-square:hover {
     border-radius: 50%;
 }
+
+/* Esercizio 4 */
+
+.ex-4-square:hover {
+    background-color: transparent;
+}
