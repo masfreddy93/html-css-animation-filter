@@ -2,6 +2,7 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    transition: background-color 2s ease-out;  
 }
 .ex-2-square {
     width: 100px;
