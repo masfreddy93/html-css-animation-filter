@@ -36,3 +36,14 @@
 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+/* Esercizio 7 */
+
+.ex-7-img {
+    transition: all 1s ease-out; 
+    
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1);
+}
