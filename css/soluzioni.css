@@ -73,6 +73,7 @@
 }
 
 /* Esercizio 10 */
+
 .ex-10-icon {
     animation-name: rotazione; 
     animation-duration: 2s;  
@@ -82,6 +83,26 @@
 @keyframes rotazione {
     100% {
         transform: rotate(-360deg);
+        
     }
 }
+
+/* Esercizio 11 */
+
+.ex-11-icon:hover {
+    animation-name: rotazione2;
+    animation-duration: 2s;
+}
+
+
+@keyframes rotazione2 {
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
 
