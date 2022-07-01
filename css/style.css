@@ -14,6 +14,7 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: border-radius 400ms ease-out;
 }
 .ex-4-square {
     width: 100px;
