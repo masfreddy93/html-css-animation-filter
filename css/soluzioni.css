@@ -6,7 +6,7 @@
 /* Esercizio 2 */
 
 .ex-2-square:active {
-    width: 900px;
+    width: 100%;
 }
 
 /* Esercizio 3 */
@@ -78,6 +78,7 @@
     animation-name: rotazione; 
     animation-duration: 2s;  
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes rotazione {
@@ -139,7 +140,7 @@
 .ex-13-button:hover .ex-13-top-white {
     animation-name: spostare-sopra-es-13;
     animation-duration: 3s;
-    animation-delay: 0ms;
+    animation-timing-function: linear;
 }
 
 @keyframes spostare-sopra-es-13 {
